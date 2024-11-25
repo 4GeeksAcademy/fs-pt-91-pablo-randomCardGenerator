@@ -1,1 +1,32 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+.fit-content {
+  width: fit-content;
+}
+
+#carta {
+  width: 400px;
+  height: 600px;
+  border-radius: 5%;
+}
+span {
+  font-size: 10em;
+}
+
+.palo {
+  display: table-cell;
+  line-height: 55%;
+  padding: 10px;
+}
+
+.invertido {
+  rotate: 180deg;
+  left: auto;
+  top: -4rem;
+  right: 1rem;
+}
+
+.heart,
+.diamond {
+  color: red;
+}
